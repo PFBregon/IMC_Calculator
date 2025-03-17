@@ -13,4 +13,5 @@ public class ImcController {
         String clasificacion = calculator.clasificarIMC(imc);
         return String.format("Tu IMC es: %.2f\nClasificación: %s", imc, clasificacion);
     }
+
 }
