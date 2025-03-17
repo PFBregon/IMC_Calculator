@@ -1,5 +1,3 @@
-package dev.patriciafb.imc;
-
 import org.junit.jupiter.api.Test;
 
 
