@@ -1,4 +1,4 @@
-package dev.patriciafb.imc.views.InitView;
+package dev.patriciafb.imc.views.Views;
 
 import java.util.Locale;
 import java.util.Scanner;

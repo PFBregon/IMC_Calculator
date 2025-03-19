@@ -1,7 +1,8 @@
 package dev.patriciafb.imc.Test;
 
-import dev.patriciafb.imc.views.InitView.InitView;
 import org.junit.jupiter.api.Test;
+
+import dev.patriciafb.imc.views.Views.InitView;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
