@@ -28,4 +28,9 @@ private final ImcCalculator calculator = new ImcCalculator();
         assertEquals("Underweight", calculator.clasificarIMC(16.0));          
     }
 
+    @Test
+    void testUnderweight() {
+        assertEquals("Underweight", calculator.clasificarIMC(18.49));
+        assertEquals("Normal weight", calculator.clasificarIMC(18.5));          
     }
+}
