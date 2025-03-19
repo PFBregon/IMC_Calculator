@@ -43,4 +43,20 @@ public class IMCControllerTest {
         String resultado = controller.calcularIMC(peso, altura);
         assertEquals("Tu IMC es: 17.31\nClasificación: Underweight", resultado);
     }
+
+    @Test
+    void testCalcularIMC_Overweight() {
+        int peso = 85;
+        double altura = 1.75;
+        String resultado = controller.calcularIMC(peso, altura);
+        assertEquals("Tu IMC es: 27.76\nClasificación: Overweight", resultado);
+    }
+
+    @Test
+    void testCalcularIMC_Obesity() {
+        int peso = 100;
+        double altura = 1.75;
+        String resultado = controller.calcularIMC(peso, altura);
+        assertEquals("Tu IMC es: 32.65\nClasificación: Obesity", resultado);
+    }
 }
