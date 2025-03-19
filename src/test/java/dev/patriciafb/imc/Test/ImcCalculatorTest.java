@@ -21,4 +21,11 @@ private final ImcCalculator calculator = new ImcCalculator();
             throw new IllegalArgumentException("La altura debe ser mayor que 0");
         }return peso / (altura * altura);
     }
-}
+
+    @Test
+    void testExtremeUnderweight() {
+        assertEquals("Extreme underweight", calculator.clasificarIMC(15.99));
+        assertEquals("Underweight", calculator.clasificarIMC(16.0));          
+    }
+
+    }
