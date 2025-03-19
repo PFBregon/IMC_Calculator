@@ -18,6 +18,7 @@ public class HomeView {
         System.out.println("Por favor, introduce tu peso en kilogramos:");
         double peso = scanner.nextDouble();
         System.out.println("Altura: " + altura + " m, Peso: " + peso + " kg.");
+        
     }
 }
 

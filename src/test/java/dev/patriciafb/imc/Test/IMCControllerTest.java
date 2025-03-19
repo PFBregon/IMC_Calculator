@@ -1,11 +1,9 @@
 package dev.patriciafb.imc.Test;
 
-import org.junit.jupiter.api.Test;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.*;
 import dev.patriciafb.imc.controllers.ImcController;
 import dev.patriciafb.imc.models.ImcCalculator;
+
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
