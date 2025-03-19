@@ -1,4 +1,6 @@
 package dev.patriciafb.imc.controllers;
+import java.util.Locale;
+
 import dev.patriciafb.imc.models.ImcCalculator;
 
 public class ImcController {
@@ -11,7 +13,7 @@ public class ImcController {
     public String calcularIMC(int peso, double altura) {
         double imc = calculator.calcularIMC(peso, altura);
         String clasificacion = calculator.clasificarIMC(imc);
-        return String.format("Tu IMC es: %.2f\nClasificación: %s", imc, clasificacion);
+        return String.format(Locale.US,"Tu IMC es: %.2f\nClasificación: %s", imc, clasificacion);
     }
 
 }

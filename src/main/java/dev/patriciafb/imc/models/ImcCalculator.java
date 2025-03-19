@@ -7,7 +7,9 @@ public class ImcCalculator {
     }
 
     public String clasificarIMC(double imc) {
-        if (imc < 18.5) {
+        if (imc < 16) {
+            return "Extreme underweight";
+        } else if (imc < 18.5) {
             return "Underweight";
         } else if (imc < 24.9) {
             return "Normal weight";
