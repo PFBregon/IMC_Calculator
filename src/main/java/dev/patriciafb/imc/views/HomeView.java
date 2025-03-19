@@ -1,12 +1,12 @@
-package dev.patriciafb.imc.views.Views;
+package dev.patriciafb.imc.views;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class InitView {
+public class HomeView {
     private final Scanner scanner;
 
-    public InitView(Scanner scanner) {
+    public HomeView(Scanner scanner) {
         this.scanner = scanner;
         this.scanner.useLocale(Locale.US);
     }

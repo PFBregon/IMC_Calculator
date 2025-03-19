@@ -2,7 +2,7 @@ package dev.patriciafb.imc.Test;
 
 import org.junit.jupiter.api.Test;
 
-import dev.patriciafb.imc.views.Views.InitView;
+import dev.patriciafb.imc.views.HomeView;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class InitViewTest {
+public class HomeViewTest {
 
     @Test
     void testPrintInitMessage() {
@@ -22,7 +22,7 @@ public class InitViewTest {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outputStream));
 
-        InitView initView = new InitView(new Scanner(System.in));
+        HomeView initView = new HomeView(new Scanner(System.in));
         initView.printInitMessage();
 
         String output = outputStream.toString();

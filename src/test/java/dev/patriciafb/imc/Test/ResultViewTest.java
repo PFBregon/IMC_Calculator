@@ -1,8 +1,9 @@
 package dev.patriciafb.imc.Test;
 
-import dev.patriciafb.imc.views.Views.ResultView;
-
 import org.junit.jupiter.api.Test;
+
+import dev.patriciafb.imc.views.ResultView;
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import static org.junit.jupiter.api.Assertions.assertTrue;
