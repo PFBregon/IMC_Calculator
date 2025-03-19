@@ -29,7 +29,6 @@ public class HomeViewTest {
         assertTrue(output.contains("Bienvenido. Ahora puedes calcular tu IMC."));
         assertTrue(output.contains("Por favor, introduce tu altura en metros:"));
         assertTrue(output.contains("Por favor, introduce tu peso en kilogramos:"));
-        assertTrue(output.contains("Altura: 1.75 m, Peso: 70.0 kg."));
     }
 
 } 

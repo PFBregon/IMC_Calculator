@@ -3,6 +3,9 @@ package dev.patriciafb.imc.views;
 import java.util.Locale;
 import java.util.Scanner;
 
+import dev.patriciafb.imc.controllers.ImcController;
+import dev.patriciafb.imc.models.ImcCalculator;
+
 public class HomeView {
     private final Scanner scanner;
 
@@ -17,7 +20,10 @@ public class HomeView {
         double altura = scanner.nextDouble();
         System.out.println("Por favor, introduce tu peso en kilogramos:");
         double peso = scanner.nextDouble();
-        System.out.println("Altura: " + altura + " m, Peso: " + peso + " kg.");
+        ImcController controller = new ImcController(new ImcCalculator());
+        String resultado = controller.calcularIMC((int)peso, altura);
+        ResultView resultView = new ResultView();
+        resultView.printResultado(resultado);
         
     }
 }
