@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="/Users/patricia/Desktop/IMC_Calculator/src/main/java/dev/patriciafb/imc/Controller.java">
+<error line="3" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/patricia/Desktop/IMC_Calculator/src/main/java/dev/patriciafb/imc/View.java">
+<error line="3" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/patricia/Desktop/IMC_Calculator/src/main/java/dev/patriciafb/imc/Model.java">
+<error line="3" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/patricia/Desktop/IMC_Calculator/src/test/java/dev/patriciafb/imc/AppTest.java">
+<error line="4" column="1" severity="error" message="&apos;org.junit.jupiter.api.Assertions.assertEquals&apos; debería separarse de los import previos." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+</checkstyle>
