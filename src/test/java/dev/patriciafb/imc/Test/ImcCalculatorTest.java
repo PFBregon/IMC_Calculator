@@ -45,4 +45,9 @@ private final ImcCalculator calculator = new ImcCalculator();
         assertEquals("Overweight", calculator.clasificarIMC(29.89));
         assertEquals("Obesity", calculator.clasificarIMC(29.9));          
     }
+
+    @Test
+    void testObesity() {
+        assertEquals("Obesity", calculator.clasificarIMC(30.0));          
+    }
 }
